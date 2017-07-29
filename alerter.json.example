@@ -1,7 +1,8 @@
 {
   "sender": "pam_alerter",
   "receivers": [
-    "email@example.com"
-    ]
+      "email@example.com"
+    ],
+  "white_ips": []
 }
 
