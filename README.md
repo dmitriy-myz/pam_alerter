@@ -1,14 +1,16 @@
 # pam alerter
 
-Script for email alert if user logged in from new ip
+Script for alert to email if user logged in from new ip address
 
 ## Prerequisites
 working local mta, listening on localhost
 
 ## install
 place `alerter.py` to `/opt/scripts/`
-place `alerter.json` to `/opt/scripts/`
-set email from, recievers, ip white list in `alerter.json`
+
+place `alerter.json` to `/opt/scripts/` 
+
+set sender email, receivers, ip white list in `alerter.json` 
 
 add to the end of file `/etc/pam.d/sshd`
 ```
