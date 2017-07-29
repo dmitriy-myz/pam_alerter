@@ -1,0 +1,7 @@
+{
+  "sender": "pam_alerter",
+  "receivers": [
+    "email@example.com"
+    ]
+}
+

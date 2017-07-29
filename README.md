@@ -1,6 +1,5 @@
 place `alerter.py` to `/opt/scripts/`
-
-set up variables on top of alerter.py
+place `alerter.json` to `/opt/scripts/`
 
 
 add to end of `/etc/pam.d/sshd`
